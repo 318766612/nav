@@ -8,10 +8,11 @@ TwoNav 是一款开源的书签（导航）管理程序，界面简洁，安装�
 
 #### 安装教程
 
-1.  当前是sqlite数据库，需要修改数据库，删除config.php和data_*.db数据库即可
-2.  php版本7.3 <= PHP <= 8.1
-2.  数据库: SQLite3 或 MySQL > 5.6.0
-3.  忘记管理员密码，可以通过ATool工具修改，修改data->ATool_config.php->switch=1,访问http://您的域名/system/ATool.php
+1. 当前是sqlite数据库，需要修改数据库，删除config.php和data_*.db数据库即可
+2. php版本7.3 <= PHP <= 8.1
+3. 数据库: SQLite3 或 MySQL > 5.6.0
+4. 忘记管理员密码，可以通过ATool工具修改，修改data->ATool_config.php->switch=1,访问http://您的域名/system/ATool.php
+5. 若是无法登录，检查服务器文件是否可以读写，修改为777即可
 
 ### 功能特色
 
@@ -38,5 +39,4 @@ TwoNav 是一款开源的书签（导航）管理程序，界面简洁，安装�
 #### 参与贡献
 
 1.  Fork 仓库[https://gitee.com/tznb/TwoNav](https://gitee.com/tznb/TwoNav)
-2.  
 
